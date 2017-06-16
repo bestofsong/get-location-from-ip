@@ -7,13 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "get_ip": "./index.js"
+    "get-loc": "./index.js",
+    "statistics": "./reduce.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0",
     "directory-traverser": "0.0.4",
-    "ip2location-nodejs": "^8.0.0"
+    "ip2location-nodejs": "^8.0.0",
+    "ua-parser-js": "^0.7.12"
   }
 }
