@@ -1,0 +1,19 @@
+{
+  "name": "access_log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "get_ip": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "directory-traverser": "0.0.4",
+    "ip2location-nodejs": "^8.0.0"
+  }
+}
